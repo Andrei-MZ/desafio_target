@@ -4,5 +4,17 @@
 // Imprimir(SOMA);
 // Ao final do processamento, qual será o valor da variável SOMA?
 
+let indice = 13;
+let soma = 0;
+let k = 0;
+
+while (k < indice) {
+  k += 1;
+  soma += k;
+}
+
+console.log(soma);
+
+// O valor final da variável soma ao final do loop é 91.
 
 
