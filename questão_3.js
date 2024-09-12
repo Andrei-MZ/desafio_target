@@ -59,3 +59,13 @@ const faturamentoJson = [
     };
   }
   
+  const resultados = processarFaturamento(faturamentoJson);
+  
+  console.log(`Menor valor de faturamento: R$ ${resultados.menorFaturamento.toFixed(2)}`);
+  console.log(`Maior valor de faturamento: R$ ${resultados.maiorFaturamento.toFixed(2)}`);
+  console.log(`Número de dias com faturamento acima da média: ${resultados.diasAcimaDaMedia}`);
+
+// Menor valor de faturamento: R$ 373.78
+// Maior valor de faturamento: R$ 48924.24
+// Número de dias com faturamento acima da média: 10
+  
